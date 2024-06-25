@@ -1,0 +1,26 @@
+{
+    "name": "sulysoft/login-package",
+    "version": "0.1.0",
+    "type": "symfony-bundle",
+    "description": "This is test symfony package.",
+    "license": "MIT",
+    "require": {
+        "php": ">8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sulysoft\\LoginPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sulysoft\\LoginPackage\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ismaeel Hassan",
+            "email": "ismaeelhassan369@gmail.com"
+        }
+    ]
+}

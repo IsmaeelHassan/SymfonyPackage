@@ -1,0 +1,3 @@
+sulysoft_login_package.routes:
+  type: annotation
+  resource: "../src/Controller"
